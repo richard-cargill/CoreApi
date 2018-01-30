@@ -1,0 +1,5 @@
+C:\A\CoreApi\CoreApi
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=CoreApi
+--content-root=C:\A\CoreApi\CoreApi
+--file=

@@ -1,0 +1,11 @@
+C:\A\CoreApi\CoreApi\bin\Release\netcoreapp2.0\CoreApi.deps.json
+C:\A\CoreApi\CoreApi\bin\Release\netcoreapp2.0\CoreApi.runtimeconfig.json
+C:\A\CoreApi\CoreApi\bin\Release\netcoreapp2.0\CoreApi.runtimeconfig.dev.json
+C:\A\CoreApi\CoreApi\bin\Release\netcoreapp2.0\CoreApi.dll
+C:\A\CoreApi\CoreApi\bin\Release\netcoreapp2.0\CoreApi.pdb
+C:\A\CoreApi\CoreApi\obj\Release\netcoreapp2.0\CoreApi.csprojResolveAssemblyReference.cache
+C:\A\CoreApi\CoreApi\obj\Release\netcoreapp2.0\CoreApi.csproj.CoreCompileInputs.cache
+C:\A\CoreApi\CoreApi\obj\Release\netcoreapp2.0\CoreApi.AssemblyInfoInputs.cache
+C:\A\CoreApi\CoreApi\obj\Release\netcoreapp2.0\CoreApi.AssemblyInfo.cs
+C:\A\CoreApi\CoreApi\obj\Release\netcoreapp2.0\CoreApi.dll
+C:\A\CoreApi\CoreApi\obj\Release\netcoreapp2.0\CoreApi.pdb

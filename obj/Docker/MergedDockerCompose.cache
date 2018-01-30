@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  coreapi:
+    build:
+      context: C:\A\CoreApi
+      dockerfile: CoreApi\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: coreapi
+    ports:
+    - 80/tcp
+version: '3.0'
