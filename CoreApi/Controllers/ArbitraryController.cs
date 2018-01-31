@@ -43,7 +43,11 @@ namespace CoreApi.Controllers
             {
                 Id = ++maxDataId,
                 Name = arbitraryModel.Name,
-                Description = arbitraryModel.Description
+                ImageUrl = arbitraryModel.ImageUrl,
+                LinkUrl = arbitraryModel.LinkUrl,
+                Title = arbitraryModel.Title,
+                Description = arbitraryModel.Description,
+                Content = arbitraryModel.Content
             };
 
             DataStore.Current.ArbitaryModelList.Add(finalData);
