@@ -47,7 +47,8 @@ namespace CoreApi.Controllers
                 LinkUrl = arbitraryModel.LinkUrl,
                 Title = arbitraryModel.Title,
                 Description = arbitraryModel.Description,
-                Content = arbitraryModel.Content
+                Content = arbitraryModel.Content,
+                LinkText = arbitraryModel.LinkText
             };
 
             DataStore.Current.ArbitaryModelList.Add(finalData);
@@ -78,12 +79,8 @@ namespace CoreApi.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteData(int id, [FromBody] ArbitraryModel arbitraryModel)
+        public IActionResult DeleteData(int id)
         {
-            if (arbitraryModel == null)
-            {
-                return BadRequest();
-            }
 
             var dataToUpdate = DataStore.Current.ArbitaryModelList.FirstOrDefault(d => d.Id == id);
 
