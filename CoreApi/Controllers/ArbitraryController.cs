@@ -90,7 +90,6 @@ namespace CoreApi.Controllers
             }
 
             DataStore.Current.ArbitaryModelList.Remove(dataToUpdate);
-
             return NoContent();
         }
     }
