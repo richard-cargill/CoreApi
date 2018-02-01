@@ -74,12 +74,8 @@ namespace CoreApi.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteData(int id, [FromBody] ArbitraryModel arbitraryModel)
+        public IActionResult DeleteData(int id)
         {
-            if (arbitraryModel == null)
-            {
-                return BadRequest();
-            }
 
             var dataToUpdate = DataStore.Current.ArbitaryModelList.FirstOrDefault(d => d.Id == id);
 
