@@ -43,7 +43,12 @@ namespace CoreApi.Controllers
             {
                 Id = ++maxDataId,
                 Name = arbitraryModel.Name,
-                Description = arbitraryModel.Description
+                ImageUrl = arbitraryModel.ImageUrl,
+                LinkUrl = arbitraryModel.LinkUrl,
+                Title = arbitraryModel.Title,
+                Description = arbitraryModel.Description,
+                Content = arbitraryModel.Content,
+                LinkText = arbitraryModel.LinkText
             };
 
             DataStore.Current.ArbitaryModelList.Add(finalData);
@@ -85,7 +90,6 @@ namespace CoreApi.Controllers
             }
 
             DataStore.Current.ArbitaryModelList.Remove(dataToUpdate);
-
             return NoContent();
         }
     }
